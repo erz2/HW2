@@ -102,6 +102,18 @@ body{
 	background-color: white;
 }
 
+#branding #empire_logo{
+	margin-top: 14px;
+	margin-bottom: 13px;
+}
+
+#branding #bbb_logo{
+	margin-top: 26px;
+	margin-bottom: 26px;
+	margin-left: 559px;
+	margin-right: 300px;
+}
+
 #branding h1{
 	width: 208px;
 	height: 32px;
@@ -116,6 +128,7 @@ body{
 
 #primary_links li{
 	display: inline;
+	font-color: #cccccc;
 }
 
 #primary_links ul{
@@ -131,7 +144,7 @@ body{
 }
 
 #content video_frame{
-	text-align: center;
+	
 }
 
 #content #FB_bar{
@@ -140,15 +153,31 @@ body{
 }
 
 #content #welcome_area{
-	width: 490px;
 	height: 215px;
+	float: left;
 }
 
 #content #welcome_area2{
-	width: 490px;
 	height: 215px;
+	float: right;
 }
 
+#content #table_area{
+	height: 525px;
+}
+
+#content #heating_area{
+	height: 400px;
+	background-color: #eef1f5
+}
+
+#content #cooling_area{
+	height: 400px;
+}
+
+#content #about_area{
+	background-color: #eef1f5
+}
 
 
 
