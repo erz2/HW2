@@ -26,6 +26,15 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+		
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
 	
 		<div id="wrapper">
 			<div id="branding">
@@ -40,7 +49,7 @@
 						Available 7 Days A Week
 					</span>
 					<div id="branding_header1_line2">
-						CALL US TODAY 1-800-555-5555
+						CALL US TODAY <font color="#339966">1-800-555-5555</font>
 					</div>
 				</span>
 				<span id="fb_button_logo">
@@ -87,6 +96,9 @@
 					<span id="fb_bar_text">
 						<b>Like us on Facebook</b> for our current offers and deals!
 					</span>
+					<span id="fb_like_button">
+						<div class="fb-like" data-href="http://www.empireheatingandcooling.com/" data-width="55px" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
+					</span>
 					<span id="fb_logo2">
 						<img src="img/FBbuttonlogo2.jpg" alt="Facebook">
 					</span>
@@ -94,7 +106,7 @@
 			
 				<div id="welcome_area">
 					<span id="welcome_area1">
-						<a id="Services">WELCOME TO EMPIRE HEATING & COOLING</a><br>
+						<a id="Services"><b>WELCOME TO EMPIRE HEATING & COOLING</b></a><br>
 						Whether you need to repair, replace, upgrade or even add a new system, our<br>
 						products are designed to make you more comfortable. We have the knowledge<br>
 						and expertise to help you choose the right heating and air conditioning system<br>
@@ -116,7 +128,7 @@
 				<div id="table_area">
 					<table>
 					<tr>
-						<th rowspan="7">AIR CONDITIONING</th>
+						<th id= "side_header1" rowspan="7">AIR CONDITIONING</th>
 						<th>RESIDENTIAL</th>
 						<th>COMMERCIAL</th>
 						<th>INDUSTRIAL</th>
@@ -148,7 +160,7 @@
 						<td>Ventilation</td>
 					</tr>
 					<tr>
-						<th rowspan="4">HEATING</th>
+						<th id="side_header2" rowspan="4">HEATING</th>
 						<td>Hot Water / Steam Boilers</td>
 						<td>Hot Water / Steam Boilers</td>
 						<td>Hot Water / Steam Boilers</td>

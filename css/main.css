@@ -131,20 +131,20 @@ body{
 	margin-left: 728px;
 	margin-right: 44px;
 	margin-top: 26px;
-	margin-bottom: 26;
+	margin-bottom: 26px;
 	position: absolute;
 }
 
 #branding #branding_header1_line1{
-	font-size: 14px;
+	font-size: 13px;
 	font-family: "Open Sans";
 	font-style: regular;
 }
 
-#branding #brnading_header1_line2{
-	font-size: 14px;
+#branding #branding_header1_line2{
+	font-size: 13px;
 	font-family: "Open Sans";
-	font-style: bold;
+	font-weight: bold;
 }
 
 #branding #fb_button_logo{
@@ -163,17 +163,17 @@ body{
 
 #primary_links li{
 	display: inline;
-	color: #cccccc;
 	margin-left: 150px;
 	margin-right: -80px;
 }
 
 #primary_links a{
 	text-decoration: none;
-	color: #cccccc;
+	color: #ffffff;
 	font-family: 'Open Sans';
 	font-style: semibold;
-	font-size: 14px;
+	font-weight: 550;
+	font-size: 16px;
 }
 
 #primary_links ul{
@@ -183,19 +183,42 @@ body{
 	margin-bottom: 0px;
 }
 
-#content h2{
-	text-align: center;
-}
-
 #content #content_header1{
 	text-align: center;
+	height: 155px;
+}
+
+#content #content_header1 #content_header1_line1{
+	margin-top: 25px;
+	margin-bottom: 6px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	color: #666666;
+}
+
+#content #content_header1 #content_header1_line2{
+	margin-bottom: 19px;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #999999;
+}
+
+#content #content_header1 #content_header1_line3{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	color: #339966;
+	letter-spacing: 3px;
 }
 
 #content video_frame{
 	text-align: center;
+	height: 320px;
 }
 
 #content #FB_bar{
+	margin-top: 38px;
 	height: 50px;
 	background-color: #336699;
 	position: relative;
@@ -213,10 +236,17 @@ body{
 	margin-bottom: 18px;
 	margin-left: 225px;
 	text-align: center;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica";
 	font-style: regular;
-	font-size: 20px;
+	font-size: 19px;
 	color: #cccccc;
+	position: absolute;
+}
+
+#content #FB_bar #fb_like_button{
+	margin-left: 700px;
+	margin-top: 14px;
+	margin-bottom: 14px;
 	position: absolute;
 }
 
@@ -228,18 +258,47 @@ body{
 	position: absolute;
 }
 
-/*#content #welcome_area1{
+#content #welcome_area{
+	width: 980px;
+	height: 216px;
+	margin-top: 38px;
+	position: relative;
+}
+
+#content #welcome_area1{
 	height: 215px;
-	float: left;
+	font-family: Open Sans;
+	font-size: 14px;
+	position: absolute;
+	line-height: 150%;
 }
 
 #content #welcome_area2{
 	height: 215px;
+	font-family: Open Sans;
+	font-size: 14px;
 	float: right;
-}*/
+	margin-left: 560px;
+	position: absolute;
+	line-height: 150%;
+}
 
 #content #table_area{
 	height: 525px;
+}
+
+#content #table_area #side_header1{
+	-ms-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-webkit-transform:rotate(270deg);
+	-o-transform:rotate(270deg);
+}
+
+#content #table_area #side_header2{
+	-ms-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-webkit-transform:rotate(270deg);
+	-o-transform:rotate(270deg);
 }
 
 #content #heating_area{
