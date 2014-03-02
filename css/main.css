@@ -102,22 +102,57 @@ body{
 	background-color: white;
 }
 
+#branding{
+	width: 980px;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
 #branding #empire_logo{
-	margin-top: 14px;
-	margin-bottom: 13px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 1px;
+	position: absolute;
 }
 
 #branding #bbb_logo{
 	margin-top: 26px;
 	margin-bottom: 26px;
-	margin-left: 559px;
+	margin-left: 558px;
 	margin-right: 300px;
+	position: absolute;
 }
 
-#branding h1{
+#branding #branding_header1{
 	width: 208px;
 	height: 32px;
-	font-size: 13px;
+	margin-left: 728px;
+	margin-right: 44px;
+	margin-top: 26px;
+	margin-bottom: 26;
+	position: absolute;
+}
+
+#branding #branding_header1_line1{
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-style: regular;
+}
+
+#branding #brnading_header1_line2{
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-style: bold;
+}
+
+#branding #fb_button_logo{
+	margin-top: 26px;
+	margin-bottom: 26px;
+	margin-left: 948px;
+	margin-right: 1px;
+	position: absolute;
 }
 
 #primary_links{
@@ -128,7 +163,17 @@ body{
 
 #primary_links li{
 	display: inline;
-	font-color: #cccccc;
+	color: #cccccc;
+	margin-left: 150px;
+	margin-right: -80px;
+}
+
+#primary_links a{
+	text-decoration: none;
+	color: #cccccc;
+	font-family: 'Open Sans';
+	font-style: semibold;
+	font-size: 14px;
 }
 
 #primary_links ul{
@@ -136,23 +181,54 @@ body{
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	text-align: center;
 }
 
 #content h2{
 	text-align: center;
 }
 
+#content #content_header1{
+	text-align: center;
+}
+
 #content video_frame{
-	
+	text-align: center;
 }
 
 #content #FB_bar{
 	height: 50px;
 	background-color: #336699;
+	position: relative;
 }
 
-#content #welcome_area{
+#content #FB_bar #fb_logo1{
+	margin-top: 9px;
+	margin-bottom: 9px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+#content #FB_bar #fb_bar_text{
+	margin-top: 14px;
+	margin-bottom: 18px;
+	margin-left: 225px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-style: regular;
+	font-size: 20px;
+	color: #cccccc;
+	position: absolute;
+}
+
+#content #FB_bar #fb_logo2{
+	margin-top: 9px;
+	margin-bottom: 9px;
+	margin-left: 930px;
+	margin-right: 20px;
+	position: absolute;
+}
+
+/*#content #welcome_area1{
 	height: 215px;
 	float: left;
 }
@@ -160,7 +236,7 @@ body{
 #content #welcome_area2{
 	height: 215px;
 	float: right;
-}
+}*/
 
 #content #table_area{
 	height: 525px;
@@ -171,15 +247,25 @@ body{
 	background-color: #eef1f5
 }
 
+#content #heating_text{
+	text-align: center;
+}
+
 #content #cooling_area{
 	height: 400px;
+}
+
+#content #cooling_text{
+	text-align: center;
 }
 
 #content #about_area{
 	background-color: #eef1f5
 }
 
-
+#content #about_text{
+	text-align: center;
+}
 
 
 

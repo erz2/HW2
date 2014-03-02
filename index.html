@@ -9,6 +9,7 @@
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 	</head>
 	<body>
@@ -35,8 +36,15 @@
 					<img src="img/bbblogo.jpg" alt="Better Business Bureau Logo">
 				</span>
 				<span id="branding_header1">
-					Available 7 Days A Week
-					CALL US TODAY 1-800-555-5555
+					<span id="branding_header1_line1">
+						Available 7 Days A Week
+					</span>
+					<div id="branding_header1_line2">
+						CALL US TODAY 1-800-555-5555
+					</div>
+				</span>
+				<span id="fb_button_logo">
+					<img src="img/FBbuttonlogo.jpg" alt="Facebook">
 				</span>
 			</div>
 			
@@ -51,38 +59,59 @@
 			</div>
 			
 			<div id="content">
-				<div id="content_header2">
-					<h2>Call us now for an estimate at 1-800-555-5555</h2>
-					We're dedicated to making sure your family or business is as comfortable as possible.
-					SERVING CLIFTON AND ALL OF NORTHERN NEW JERSEY
+				<div id="content_header1">
+					<div id="content_header1_line1">
+						Call us now for an estimate at 1-800-555-5555
+					</div>
+					<div id="content_header1_line2">
+						We're dedicated to making sure your family or business is as comfortable as possible.
+					</div>
+					<div id="content_header1_line3">
+						SERVING CLIFTON AND ALL OF NORTHERN NEW JERSEY
+					</div>
 				</div>
 				
 				<div id="video_frame">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/4KjdWQpHJJ8" frameborder="0" allowfullscreen></iframe>
+					<center><object width="560" height="315">
+						<param name="movie" value="//www.youtube.com/v/4KjdWQpHJJ8?version=3&amp;hl=en_US"></param>
+						<param name="allowFullScreen" value="true"></param>
+						<param name="allowscriptaccess" value="always"></param>
+						<embed src="//www.youtube.com/v/4KjdWQpHJJ8?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed>
+					</object></center>
 				</div>
 			
 				<div id="FB_bar">
-					
+					<span id="fb_logo1">
+						<img src="img/FBbuttonlogo2.jpg" alt="Facebook">
+					</span>
+					<span id="fb_bar_text">
+						<b>Like us on Facebook</b> for our current offers and deals!
+					</span>
+					<span id="fb_logo2">
+						<img src="img/FBbuttonlogo2.jpg" alt="Facebook">
+					</span>
 				</div>
 			
-				<span id="welcome_area">
-					<a id="Services">WELCOME TO EMPIRE HEATING & COOLING</a><br>
-					Whether you need to repair, replace, upgrade or even add a new system, our<br>
-					products are designed to make you more comfortable. We have the knowledge<br>
-					and expertise to help you choose the right heating and air conditioning system<br>
-					to meet your needs so that you benefit from increased efficiency, reliability,<br>
-					and control of your home or businesses' indoor environment.
-				</span>
-				<span id="welcome_area2">
-					<ul>
-						<li>Full Insured / Owner Operated</li>
-						<li>Trained and experienced engineers, technicians and installers</li>
-						<li>Trouble-free installation and service calls</li>
-						<li>TQM: Total Quality Program</li>
-						<li>Exceptional customer service from start to finish</li>
-						<li>Service and preventative maintenance contracts</li>
-					</ul>
-				</span>
+				<div id="welcome_area">
+					<span id="welcome_area1">
+						<a id="Services">WELCOME TO EMPIRE HEATING & COOLING</a><br>
+						Whether you need to repair, replace, upgrade or even add a new system, our<br>
+						products are designed to make you more comfortable. We have the knowledge<br>
+						and expertise to help you choose the right heating and air conditioning system<br>
+						to meet your needs so that you benefit from increased efficiency, reliability,<br>
+						and control of your home or businesses' indoor environment.
+					</span>
+					<span id="welcome_area2">
+						<ul>
+							<li>Full Insured / Owner Operated</li>
+							<li>Trained and experienced engineers, technicians and installers</li>
+							<li>Trouble-free installation and service calls</li>
+							<li>TQM: Total Quality Program</li>
+							<li>Exceptional customer service from start to finish</li>
+							<li>Service and preventative maintenance contracts</li>
+						</ul>
+					</span>
+				</div>
 			
 				<div id="table_area">
 					<table>
@@ -143,55 +172,74 @@
 			
 				<div id="heating_area">
 					<a id="Heating">Heating</a>
-					<p>Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.<br>
-					Our recommendations will always keep your requirements and budget in mind. We'll respond to your requests and act quickly when you call<br>
-					Nothing is more important then your peace of mind when the weather is cold.</p>
-					<img src="img/heatimg1.jpg">
-					<img src="img/heatimg2.jpg">
-					<img src="img/heatimg3.jpg">
+					<div id="heating_text">
+						Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.<br>
+						Our recommendations will always keep your requirements and budget in mind. We'll respond to your requests and act quickly when you call<br>
+						Nothing is more important then your peace of mind when the weather is cold.
+					</div>
+					<div id="heating_img">
+						<img src="img/heatimg1.jpg">
+						<img src="img/heatimg2.jpg">
+						<img src="img/heatimg3.jpg">
+					</div>
 				</div>
 			
 				<div id="cooling_area">
 					<a id="Cooling">Cooling</a>
-					<p>Central air conditioning helps keep your environment cool and reduces humidity levels. As the central air conditioning system draws air out<br>
-					of various rooms in your house or business through return air ducts, the air is pulled through an air filter, which removed airborne particles<br>
-					such as dust and lint. The filtered air is then routed to air supply ductwork that carries it back to the rooms.</p>
-					<img src="img/coolimg1.jpg">
-					<img src="img/coolimg2.jpg">
-					<img src="img/coolimg3.jpg">
+					<div id="cooling_text">
+						Central air conditioning helps keep your environment cool and reduces humidity levels. As the central air conditioning system draws air out<br>
+						of various rooms in your house or business through return air ducts, the air is pulled through an air filter, which removed airborne particles<br>
+						such as dust and lint. The filtered air is then routed to air supply ductwork that carries it back to the rooms.
+					</div>
+					<div id="cooling_img">
+						<img src="img/coolimg1.jpg">
+						<img src="img/coolimg2.jpg">
+						<img src="img/coolimg3.jpg">
+					</div>
 				</div>
 			
 				<div id="about_area">
 					<a id="About">About Us</a>
-					<p>Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.<br>
-					Our recommendations will always keep your requirements and budget in mind. We'll respond to your requests and act quickly when you call.<br>
-					Nothing is more important than your peace of mind when the weather is cold.</p><br>
-
-					<img src="img/aosmithlogo.jpg">
-					<img src="img/fujitsulogo.jpg">
-					<img src="img/whiterogerslogo.jpg">
-					<img src="img/uticaboilerslogo.jpg">
-					<img src="img/tacologo.jpg">
-					<img src="img/bryantlogo.jpg">
-					<img src="img/mitsubishilogo.jpg"><br>
-					<img src="img/peerlesslogo.jpg">
-					<img src="img/goodmanlogo.jpg">
-					<img src="img/crownboilerlogo.jpg">
-					<img src="img/ruudlogo.jpg">
-					<img src="img/rheemlogo.jpg">
-					<img src="img/tranelogo.jpg">
-					<img src="img/sanyologo.jpg"><br>
-					<img src="img/burnhamlogo.jpg">
-					<img src="img/lennoxlogo.jpg">
-					<img src="img/bradfordwhitelogo.jpg">
-					<img src="img/weilmclainlogo.jpg">
-					<img src="img/honeywelllogo.jpg">
-					<img src="img/yorklogo.jpg">
-					<img src="img/carrierlogo.jpg"><br>
-					<img src="img/amanalogo.jpg">
-					<img src="img/luxairelogo.jpg">
-					<img src="img/americanstandardlogo.jpg"><br>
-					<img src="img/empiretrucks.jpg">
+					<div id="about_text">
+						Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.<br>
+						Our recommendations will always keep your requirements and budget in mind. We'll respond to your requests and act quickly when you call.<br>
+						Nothing is more important than your peace of mind when the weather is cold.
+					</div>
+					<div id="about_img">
+						<div id="logo_row1">
+							<img src="img/aosmithlogo.jpg">
+							<img src="img/fujitsulogo.jpg">
+							<img src="img/whiterogerslogo.jpg">
+							<img src="img/uticaboilerslogo.jpg">
+							<img src="img/tacologo.jpg">
+							<img src="img/bryantlogo.jpg">
+							<img src="img/mitsubishilogo.jpg">
+						</div>
+						<div id="logo_row2">
+							<img src="img/peerlesslogo.jpg">
+							<img src="img/goodmanlogo.jpg">
+							<img src="img/crownboilerlogo.jpg">
+							<img src="img/ruudlogo.jpg">
+							<img src="img/rheemlogo.jpg">
+							<img src="img/tranelogo.jpg">
+							<img src="img/sanyologo.jpg">
+						</div>
+						<div id="logo_row3">
+							<img src="img/burnhamlogo.jpg">
+							<img src="img/lennoxlogo.jpg">
+							<img src="img/bradfordwhitelogo.jpg">
+							<img src="img/weilmclainlogo.jpg">
+							<img src="img/honeywelllogo.jpg">
+							<img src="img/yorklogo.jpg">
+							<img src="img/carrierlogo.jpg">
+						</div>
+						<div id="logo_row4">
+							<img src="img/amanalogo.jpg">
+							<img src="img/luxairelogo.jpg">
+							<img src="img/americanstandardlogo.jpg">
+						</div>
+						<img src="img/empiretrucks.jpg">
+					</div>
 				</div>
 			</div>
 			<div id="footer"></div>
