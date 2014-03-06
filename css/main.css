@@ -171,8 +171,7 @@ body{
 	text-decoration: none;
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-style: semibold;
-	font-weight: 550;
+	font-weight: 800;
 	font-size: 16px;
 }
 
@@ -270,7 +269,7 @@ body{
 	font-family: Open Sans;
 	font-size: 14px;
 	position: absolute;
-	line-height: 150%;
+	line-height: 225%;
 }
 
 #content #welcome_area2{
@@ -280,7 +279,7 @@ body{
 	float: right;
 	margin-left: 560px;
 	position: absolute;
-	line-height: 150%;
+	line-height: 180%;
 }
 
 #content #table_area{
@@ -301,6 +300,7 @@ body{
 	color: #ffffff;
 	background-color: #7f8c8d;
 	border: 2px solid white;
+	width: 315px;
 }
 
 #content #table_area td{
@@ -312,29 +312,45 @@ body{
 }
 
 #content #table_area #side_header1{
+	background-color: #3399cc;
+	border: 2px solid white;
+	height: 312px;
+	width: 26px;
+}
+
+#content #table_area #side_header1 #side_header1_text{
 	font-size: 14px;
 	font-family: Open Sans;
+	margin-top: 140px;
+	letter-spacing: 2.5px;
 	color: #ffffff;
+	white-space: nowrap;
 	width: 26px;
-	background-color: #2980b9;
 	-ms-transform:rotate(270deg);
 	-moz-transform:rotate(270deg);
 	-webkit-transform:rotate(270deg);
 	-o-transform:rotate(270deg);
-	border: 2px solid white;
 }
 
 #content #table_area #side_header2{
+	background-color: #cc3333;
+	border: 2px solid white;
+	height: 174px;
+	width: 26px;
+}
+
+#content #table_area #side_header2 #side_header2_text{
 	font-size: 14px;
 	font-family: Open Sans;
+	margin-top: 50px;
+	letter-spacing: 2px;
 	color: #ffffff;
+	white-space: nowrap;
 	width: 26px;
-	background-color: #c0392b;
 	-ms-transform:rotate(270deg);
 	-moz-transform:rotate(270deg);
 	-webkit-transform:rotate(270deg);
 	-o-transform:rotate(270deg);
-	border: 2px solid white;
 }
 
 #content #heating_area{
